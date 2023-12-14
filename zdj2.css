@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a5a5a5;
+    margin: 0;
+    padding: 1em;
+}
+
+.gora {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #8b8b88;
+    color: rgb(40, 39, 39);
+}
+
+nav a {
+    color: rgb(40, 39, 39);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    text-align: center;
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.caption {
+    color: rgb(40, 39, 39);
+}
+
+.add-to-cart-btn {
+    background-color: #4caf50;
+    color: rgb(40, 39, 39);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+
+.info-sections {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.info-section {
+    text-align: center;
+    max-width: 400px;
+}
+
+footer {
+    background-color:#8b8b88 ;
+    color: rgb(40, 39, 39);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-link {
+    color: rgb(40, 39, 39);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+
+}
+/* Domyślny kolor tła strony */
+body {
+    background-color: #a5a5a5;
+    transition: background-color 0.3s; /* Dodaj płynne przejście */
+  }
+  
+  /* Dodaj te reguły, jeśli chcesz zmienić kolor tła przycisków po najechaniu */
+  #btn1:hover {
+    background-color: #047721;
+  }
+  
+  /* Dodaj odpowiednie reguły dla innych przycisków, jeśli są */
+/* Domyślny kolor tła strony */
+body {
+    background-color: #a5a5a5;
+    transition: background-color 0.3s; /* Dodaj płynne przejście */
+  }
+  
+  /* Dodaj te reguły, jeśli chcesz zmienić kolor tła przycisków po najechaniu */
+  #btn2:hover {
+    background-color: #883506;
+  }
+  
+  /* Dodaj odpowiednie reguły dla innych przycisków, jeśli są */
+    
